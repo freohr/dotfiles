@@ -1,0 +1,204 @@
+[global_config]
+  focus = system
+  suppress_multiple_term_dialog = True
+  title_transmit_bg_color = "#f57900"
+[keybindings]
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_next = <Alt>u
+  go_prev = <Alt>i
+  go_right = <Alt>l
+  go_up = <Alt>k
+  layout_launcher = <Primary><Alt>l
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 76521c80-a620-4e53-9160-9a7a17f00b6d
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 55:27
+      size = 2505, 1279
+      title = guest@ubuntu: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 1927
+      ratio = 0.75
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 639
+      ratio = 0.5
+      type = VPaned
+    [[[child3]]]
+      order = 0
+      parent = child2
+      position = 970
+      ratio = 0.5
+      type = HPaned
+    [[[child6]]]
+      order = 1
+      parent = child2
+      position = 970
+      ratio = 0.5
+      type = HPaned
+    [[[child9]]]
+      order = 1
+      parent = child1
+      position = 639
+      ratio = 0.5
+      type = VPaned
+    [[[terminal10]]]
+      order = 0
+      parent = child9
+      profile = default
+      title = terminal10
+      type = Terminal
+      uuid = df0a5b17-b45a-44db-b140-a80da85f8e16
+    [[[terminal11]]]
+      command = top
+      directory = ""
+      order = 1
+      parent = child9
+      profile = default
+      title = terminal11
+      type = Terminal
+      uuid = a6e55c71-e0a3-49e1-9695-4e124b4b4983
+    [[[terminal4]]]
+      directory = /home/guest/workspaces/repos/NwPlatform-Excellence
+      order = 0
+      parent = child3
+      profile = default
+      title = cv-nwplatform Excellence
+      type = Terminal
+      uuid = 55140518-d019-4251-8f74-ad297cbdf072
+    [[[terminal5]]]
+      directory = /home/guest/workspaces/repos/NwPlatform-9200
+      order = 1
+      parent = child3
+      profile = default
+      title = cv-nwplatform 9200
+      type = Terminal
+      uuid = 76521c80-a620-4e53-9160-9a7a17f00b6d
+    [[[terminal7]]]
+      order = 0
+      parent = child6
+      profile = default
+      title = terminal7
+      type = Terminal
+      uuid = 53cda13c-894a-466d-bb7e-c41fab765f81
+    [[[terminal8]]]
+      order = 1
+      parent = child6
+      profile = default
+      title = terminal8
+      type = Terminal
+      uuid = 37713152-591d-4fd6-ab51-5ec96ff59228
+  [[old-default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 55140518-d019-4251-8f74-ad297cbdf072
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 55:27
+      size = 2505, 1279
+      title = guest@ubuntu: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 1928
+      ratio = 0.7712
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 639
+      ratio = 0.501569858713
+      type = VPaned
+    [[[child4]]]
+      order = 1
+      parent = child2
+      position = 964
+      ratio = 0.501300052002
+      type = HPaned
+    [[[child7]]]
+      order = 1
+      parent = child1
+      position = 639
+      ratio = 0.501569858713
+      type = VPaned
+    [[[child9]]]
+      order = 1
+      parent = child7
+      position = 319
+      ratio = 0.503154574132
+      type = VPaned
+    [[[terminal10]]]
+      order = 0
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = 2414d4d5-416b-4531-85df-e3df0a71e5a5
+    [[[terminal3]]]
+      directory = /home/guest/workspaces/repos/NwPlatform-9200
+      order = 0
+      parent = child2
+      profile = default
+      title = Working Repo
+      type = Terminal
+      uuid = 55140518-d019-4251-8f74-ad297cbdf072
+    [[[terminal5]]]
+      order = 0
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 53cda13c-894a-466d-bb7e-c41fab765f81
+    [[[terminal6]]]
+      order = 1
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 37713152-591d-4fd6-ab51-5ec96ff59228
+    [[[terminal8]]]
+      order = 0
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = df0a5b17-b45a-44db-b140-a80da85f8e16
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#7c6f64"
+    cursor_shape = underline
+    font = Iosevka Term Medium 10
+    foreground_color = "#ebdbb2"
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    scrollback_lines = 4000
+    use_system_font = False
+  [[gruvbox-dark]]
+    background_color = "#282828"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#7c6f64"
+    cursor_shape = underline
+    font = Iosevka Term Medium 11
+    foreground_color = "#ebdbb2"
+    palette = "#fbf1c7:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#7c6f64:#928374:#9d0006:#79740e:#b57614:#076678:#8f3f71:#427b58:#3c3836"
+    use_system_font = False
+  [[gruvbox-light]]
+    background_color = "#eee8d5"
+    cursor_color = "#002b36"
+    cursor_shape = underline
+    foreground_color = "#002b36"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
