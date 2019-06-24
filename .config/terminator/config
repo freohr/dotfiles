@@ -70,7 +70,7 @@
       type = Terminal
       uuid = a6e55c71-e0a3-49e1-9695-4e124b4b4983
     [[[terminal4]]]
-      directory = /home/guest/workspaces/repos/NwPlatform-Excellence
+      directory = /home/guest/workspaces/NwPlatform-Excellence
       order = 0
       parent = child3
       profile = default
@@ -78,7 +78,7 @@
       type = Terminal
       uuid = 55140518-d019-4251-8f74-ad297cbdf072
     [[[terminal5]]]
-      directory = /home/guest/workspaces/repos/NwPlatform-9200
+      directory = /home/guest/workspaces/NwPlatform-9200
       order = 1
       parent = child3
       profile = default
