@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+    <snippet group="C++" trigger="find_if" id="" complement="return" removed="false" modified="false">auto itr = std::find_if($collection$.cbegin(), $collection$.cend(),
+                        [$capture$] (const $param:c$ $param$)
+                        {
+                            return $bool_cond$
+                        });
+
+return itr != $collection$.cend() ? *itr : $default$;</snippet>
+    <snippet group="C++" trigger="for" id="cpp_for" complement="" removed="false" modified="true">for (int $var$ = 0; $var$ &lt; $total$; ++$var$) {
+    $$
+}</snippet>
+</snippets>
