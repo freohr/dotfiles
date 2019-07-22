@@ -9,7 +9,3 @@ try
 source ~/.vim_runtime/my_configs.vim
 catch
 endtry
-
-let g:chromatica#global_args=['-isystem/home/guest/workspaces/tools/lib/llvm-8.0.0/include']
-let g:chromatica#libclang_path='/home/guest/workspaces/tools/lib/llvm-8.0.0/lib'
-let g:chromatica#enable_at_startup=0

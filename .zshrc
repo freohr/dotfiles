@@ -2,10 +2,11 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-    export ZSH=/home/guest/.oh-my-zsh
-    export PATH=$PATH:/home/guest/Qt/Tools/QtCreator/bin/:/home/guest/Documents/NW:/home/guest/workspaces/tools/scripts
-    export PATH=$PATH:/home/guest/workspaces/tools/lib/llvm-8.0.0/bin
-    export PATH=$PATH:/home/guest/witekio_scripts
+    export ZSH=/home/stephen/.oh-my-zsh
+    export PATH=$PATH:/home/stephen/Qt/Tools/QtCreator/bin/:/home/stephen/Documents/NW:/home/stephen/workspaces/tools/scripts
+    export PATH=$PATH:/home/stephen/workspaces/tools/lib/llvm-8.0.0/bin
+    export PATH=$PATH:/home/stephen/witekio_scripts
+    export PATH=$PATH:/home/stephen/.local/bin
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -104,4 +105,4 @@ alias zshreload="source ~/.zshrc"
 alias vim="nvim"
 alias xclipc="xclip -selection c"
 alias pip3="python3 -m pip"
-alias config='/usr/bin/git --git-dir=/home/guest/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=/home/stephen/.cfg/ --work-tree=$HOME'

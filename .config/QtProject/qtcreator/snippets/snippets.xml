@@ -10,4 +10,7 @@ return itr != $collection$.cend() ? *itr : $default$;</snippet>
     <snippet group="C++" trigger="for" id="cpp_for" complement="" removed="false" modified="true">for (int $var$ = 0; $var$ &lt; $total$; ++$var$) {
     $$
 }</snippet>
+    <snippet group="C++" trigger="namespace" id="cpp_namespace_with_comment" complement="with closing brace comment" removed="false" modified="true">namespace $name$ {
+    $$
+}  // namespace $name$</snippet>
 </snippets>

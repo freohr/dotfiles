@@ -1,1 +1,1 @@
-/home/guest/.vimrc
+/home/stephen/.vimrc
