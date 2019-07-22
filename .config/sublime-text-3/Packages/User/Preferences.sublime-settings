@@ -24,4 +24,13 @@
 		80
 	],
 	"save_on_focus_lost": true,
+
+	// Gruvbox Preferences
+	"gruvbox_accent_green": true,
+	"gruvbox_autocomplete_compact": true,
+	"gruvbox_sidebar_compact": true,
+	"gruvbox_command_palette_compact": true,
+	"gruvbox_tabs_s": true,
+	"gruvbox_underline_modified_tabs": true,
+	"gruvbox_underline_active_tab": true, 
 }
