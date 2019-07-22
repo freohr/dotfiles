@@ -1,0 +1,27 @@
+{
+	"theme": "gruvbox.sublime-theme",
+	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Soft).sublime-color-scheme",
+	"always_show_minimap_viewport": true,
+	"atomic_save": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"curl",
+			"wget",
+			"urllib"
+		]
+	},
+	"draw_minimap_border": true,
+	"font_face": "Iosevka Medium",
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+}
