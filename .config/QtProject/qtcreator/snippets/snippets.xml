@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <snippets>
+    <snippet group="Text" trigger="aco" id="" complement="" removed="false" modified="false">add_compile_option(-D$var$=ON)</snippet>
+    <snippet group="Text" trigger="cmake" id="" complement="" removed="false" modified="false">cmake_minimum_required(VERSION 3.8 FATAL_ERROR)
+
+project($proj_name$)
+
+set(components_SRC
+    $components$)
+
+add_library(\\${PROJECT_NAME} \\${components_SRC})
+
+target_include_directories(\\${PROJECT_NAME} PUBLIC \\${CMAKE_CURRENT_SOURCE_DIR})</snippet>
+    <snippet group="Text" trigger="tll" id="" complement="" removed="false" modified="false">target_link_libraries(\\${PROJECT_NAME} compatibility afc $libs$)</snippet>
+    <snippet group="Text" trigger="todo" id="" complement="" removed="false" modified="false">// TODO (SFA): $text$</snippet>
     <snippet group="C++" trigger="find_if" id="" complement="return" removed="false" modified="false">auto itr = std::find_if($collection$.cbegin(), $collection$.cend(),
                         [$capture$] (const $param:c$ $param$)
                         {
