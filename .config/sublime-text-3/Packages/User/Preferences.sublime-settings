@@ -1,8 +1,7 @@
 {
-	"theme": "gruvbox.sublime-theme",
-	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Soft).sublime-color-scheme",
 	"always_show_minimap_viewport": true,
 	"atomic_save": true,
+	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Soft).sublime-color-scheme",
 	"downloader_precedence":
 	{
 		"linux":
@@ -14,6 +13,13 @@
 	},
 	"draw_minimap_border": true,
 	"font_face": "Iosevka Medium",
+	"gruvbox_accent_green": true,
+	"gruvbox_autocomplete_compact": true,
+	"gruvbox_command_palette_compact": true,
+	"gruvbox_sidebar_compact": true,
+	"gruvbox_tabs_s": true,
+	"gruvbox_underline_active_tab": true,
+	"gruvbox_underline_modified_tabs": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -24,13 +30,5 @@
 		80
 	],
 	"save_on_focus_lost": true,
-
-	// Gruvbox Preferences
-	"gruvbox_accent_green": true,
-	"gruvbox_autocomplete_compact": true,
-	"gruvbox_sidebar_compact": true,
-	"gruvbox_command_palette_compact": true,
-	"gruvbox_tabs_s": true,
-	"gruvbox_underline_modified_tabs": true,
-	"gruvbox_underline_active_tab": true, 
+	"theme": "gruvbox.sublime-theme"
 }

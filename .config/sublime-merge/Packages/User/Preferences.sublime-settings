@@ -2,5 +2,6 @@
 	"editor_path": "/usr/bin/subl",
 	"expand_merge_commits_by_default": false,
 	"font_face": "Iosevka Term",
+	"font_size": 11,
 	"hide_menu": false
 }
