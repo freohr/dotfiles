@@ -7,6 +7,8 @@
     export PATH=$PATH:/home/stephen/workspaces/tools/lib/llvm-8.0.0/bin
     export PATH=$PATH:/home/stephen/witekio_scripts
     export PATH=$PATH:/home/stephen/.local/bin
+    export PATH=$PATH:/home/stephen/Workspace/tools/run-clang-format
+    export PATH=$PATH:/home/stephen/Workspace/tools/sonoScripts
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
