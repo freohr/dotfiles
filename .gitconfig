@@ -5,3 +5,5 @@
 	name = Stephen FAURE
 [push]
 	default = simple
+[rerere]
+	enabled = true
