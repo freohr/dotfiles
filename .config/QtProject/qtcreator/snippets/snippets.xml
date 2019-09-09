@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <snippets>
-    <snippet group="Text" trigger="aco" id="" complement="" removed="false" modified="false">add_compile_option(-D$var$=ON)</snippet>
+    <snippet group="Text" trigger="aco" id="" complement="" removed="false" modified="false">add_compile_options(-D$var$=ON)</snippet>
     <snippet group="Text" trigger="cmake" id="" complement="" removed="false" modified="false">cmake_minimum_required(VERSION 3.8 FATAL_ERROR)
 
 project($proj_name$)
