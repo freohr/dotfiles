@@ -112,5 +112,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export PATH=$PATH:/home/guest/witekio_scripts
-alias config='/usr/bin/git --git-dir=/home/guest/.cfg/
+
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
