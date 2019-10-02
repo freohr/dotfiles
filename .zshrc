@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-    export ZSH=/home/stephen/.oh-my-zsh
+    export ZSH=$HOME/.oh-my-zsh
     export PATH=$PATH:$HOME/Qt/Tools/QtCreator/bin/:$HOME/Documents/NW:$HOME/workspaces/tools/scripts
     export PATH=$PATH:$HOME/workspaces/tools/lib/llvm-8.0.0/bin
     export PATH=$PATH:$HOME/witekio_scripts
