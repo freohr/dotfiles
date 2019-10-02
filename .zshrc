@@ -3,12 +3,12 @@
 
 # Path to your oh-my-zsh installation.
     export ZSH=/home/stephen/.oh-my-zsh
-    export PATH=$PATH:/home/stephen/Qt/Tools/QtCreator/bin/:/home/stephen/Documents/NW:/home/stephen/workspaces/tools/scripts
-    export PATH=$PATH:/home/stephen/workspaces/tools/lib/llvm-8.0.0/bin
-    export PATH=$PATH:/home/stephen/witekio_scripts
-    export PATH=$PATH:/home/stephen/.local/bin
-    export PATH=$PATH:/home/stephen/Workspace/tools/run-clang-format
-    export PATH=$PATH:/home/stephen/Workspace/tools/sonoScripts
+    export PATH=$PATH:$HOME/Qt/Tools/QtCreator/bin/:$HOME/Documents/NW:$HOME/workspaces/tools/scripts
+    export PATH=$PATH:$HOME/workspaces/tools/lib/llvm-8.0.0/bin
+    export PATH=$PATH:$HOME/witekio_scripts
+    export PATH=$PATH:$HOME/.local/bin
+    export PATH=$PATH:$HOME/Workspace/tools/run-clang-format
+    export PATH=$PATH:$HOME/Workspace/tools/sonoScripts
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -107,4 +107,4 @@ alias zshreload="source ~/.zshrc"
 alias vim="nvim"
 alias xclipc="xclip -selection c"
 alias pip3="python3 -m pip"
-alias config='/usr/bin/git --git-dir=/home/stephen/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
