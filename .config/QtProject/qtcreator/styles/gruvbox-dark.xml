@@ -27,8 +27,7 @@
   <style name="PrimitiveType" foreground="#808000"/>
   <style name="Operator" foreground="#458588"/>
   <style name="Overloaded Operator" foreground="#d65d0e"/>
-  <style name="Punctuation" foreground="#ebdbb2"/>
-  <style name="Preprocessor" foreground="#fe8019" italic="true"/>
+  <style name="Preprocessor" foreground="#fe8019" underlineColor="#ce5c00" underlineStyle="SingleUnderline"/>
   <style name="Label" foreground="#cc241d"/>
   <style name="Comment" foreground="#7c6f64" italic="true"/>
   <style name="Doxygen.Comment" foreground="#fe8019"/>

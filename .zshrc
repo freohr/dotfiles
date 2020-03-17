@@ -4,11 +4,14 @@
 # Path to your oh-my-zsh installation.
     export ZSH=$HOME/.oh-my-zsh
     export PATH=$PATH:$HOME/Qt/Tools/QtCreator/bin/:$HOME/Documents/NW:$HOME/workspaces/tools/scripts
-    export PATH=$PATH:$HOME/workspaces/tools/lib/llvm-8.0.0/bin
     export PATH=$PATH:$HOME/witekio_scripts
     export PATH=$PATH:$HOME/.local/bin
     export PATH=$PATH:$HOME/Workspace/tools/run-clang-format
     export PATH=$PATH:$HOME/Workspace/tools/sonoScripts
+    export PATH=$PATH:$HOME/Workspace/libs
+    export PATH=$PATH:$HOME/Workspace/libs/json-3.7.0
+    export PATH=$PATH:$HOME/Workspace/scripts
+    export PATH=$PATH:$HOME/Qt5.11.3/Tools/QtCreator/bin
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -64,11 +67,14 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
+  gitfast
   mercurial
   pip
-  zsh-autosuggestions
-  sublime
+  colored-man-pages
+  docker
+  history-substring-search
+  dirhistory
+  sudo
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -100,11 +106,15 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="nvim ~/.zshrc"
+alias zshconfig="vi ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-alias vim="nvim"
+# alias vim="nvim"
 alias xclipc="xclip -selection c"
 alias pip3="python3 -m pip"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# Git Aliases
+alias gci="git commit --interactive"
+alias gpf="git push --force-with-lease"

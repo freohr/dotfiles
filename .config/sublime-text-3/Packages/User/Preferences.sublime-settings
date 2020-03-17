@@ -13,6 +13,7 @@
 	},
 	"draw_minimap_border": true,
 	"font_face": "Iosevka Medium",
+	"font_size": 10,
 	"gruvbox_accent_green": true,
 	"gruvbox_autocomplete_compact": true,
 	"gruvbox_command_palette_compact": true,

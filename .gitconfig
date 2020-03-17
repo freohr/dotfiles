@@ -1,9 +1,16 @@
 [core]
 	editor = vim
 [user]
-	email = faure.stephen@gmail.com
+	email = sfaure-ext@witekio.com
 	name = Stephen FAURE
 [push]
 	default = simple
 [rerere]
 	enabled = true
+[alias]
+	unstage = restore --staged
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
