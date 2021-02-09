@@ -10,3 +10,4 @@ echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $H
 config remote add origin https://github.com/freohr/dotfiles.git
 config fetch origin
 config reset --hard origin/master
+config submodule update --init
