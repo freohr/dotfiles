@@ -75,6 +75,7 @@ plugins=(
   history-substring-search
   dirhistory
   sudo
+  virtualenv
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -114,6 +115,7 @@ alias zshreload="source ~/.zshrc"
 alias xclipc="xclip -selection c"
 alias pip3="python3 -m pip"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias vcpkg="/home/stephen/workspace/libs/vcpkg/vcpkg"
 
 # Git Aliases
 alias gci="git commit --interactive"
