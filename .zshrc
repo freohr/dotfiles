@@ -109,14 +109,13 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 # Example aliases
 alias zshconfig="vi ~/.zshrc"
 alias zshreload="source ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-# alias vim="nvim"
 alias xclipc="xclip -selection c"
 alias pip3="python3 -m pip"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias vcpkg="/home/stephen/workspace/libs/vcpkg/vcpkg"
 
+alias update-config="config pull --rebase"
+alias update-config-force"config fetch; config reset --hard origin/master"
 # Git Aliases
 alias gci="git commit --interactive"
 alias gpf="git push --force-with-lease"
