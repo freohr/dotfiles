@@ -114,7 +114,7 @@ alias pip3="python3 -m pip"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias vcpkg="/home/stephen/workspace/libs/vcpkg/vcpkg"
 
-alias update-config="config pull --rebase"
+alias update-config="config pull --rebase; config submodule update --recursive"
 alias update-config-force"config fetch; config reset --hard origin/master"
 # Git Aliases
 alias gci="git commit --interactive"
