@@ -101,7 +101,7 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-source ~/.config/aws-credentials.sh
+[ -e ~/.config/aws-credentials.sh ] && source ~/.config/aws-credentials.sh
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -117,7 +117,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias vcpkg="/home/stephen/workspace/libs/vcpkg/vcpkg"
 
 alias update-config="config pull --rebase; config submodule update --recursive"
-alias update-config-force"config fetch; config reset --hard origin/master"
+alias update-config-force"config fetch; config reset --hard origin/master; config submodule update --recursive --force"
 # Git Aliases
 alias gci="git commit --interactive"
 alias gpf="git push --force-with-lease"
