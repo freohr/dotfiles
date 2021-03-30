@@ -1,7 +1,6 @@
 [core]
 	editor = vim
 [user]
-	email = sfaure-ext@witekio.com
 	name = Stephen FAURE
 [push]
 	default = simple
@@ -14,3 +13,7 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
