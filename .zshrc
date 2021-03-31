@@ -108,16 +108,16 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+# ZSH aliases
 alias zshconfig="vi ~/.zshrc"
 alias zshreload="source ~/.zshrc"
+alias update-config="config pull --rebase; config submodule update --recursive"
+alias update-config-force"config fetch; config reset --hard origin/master; config submodule update --recursive --force"
+
+# Other Aliases
 alias xclipc="xclip -selection c"
 alias pip3="python3 -m pip"
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias vcpkg="/home/stephen/workspace/libs/vcpkg/vcpkg"
+alias kc="kubectl"
 
-alias update-config="config pull --rebase; config submodule update --recursive"
-alias update-config-force"config fetch; config reset --hard origin/master; config submodule update --recursive --force"
-# Git Aliases
-alias gci="git commit --interactive"
-alias gpf="git push --force-with-lease"

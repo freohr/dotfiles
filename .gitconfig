@@ -9,6 +9,9 @@
 	enabled = true
 [alias]
 	unstage = restore --staged
+	clean-remote = fetch --prune --prune-tags
+	ci = commit --interactive
+	pf = push --force-with-lease
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
