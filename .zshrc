@@ -113,7 +113,7 @@ alias zshconfig="vi ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 alias xclipc="xclip -selection c"
 alias pip3="python3 -m pip"
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias vcpkg="/home/stephen/workspace/libs/vcpkg/vcpkg"
 
 alias update-config="config pull --rebase; config submodule update --recursive"
