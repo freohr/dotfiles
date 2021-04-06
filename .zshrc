@@ -120,7 +120,8 @@ alias xclipc="xclip -selection c"
 alias pip3="python3 -m pip"
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias vcpkg="/home/stephen/workspace/libs/vcpkg/vcpkg"
-alias kc="kubectl"
+
+source ~/.config/kc-aliases
 
 # Completion scripts
 # Enable Bash completions scripts
