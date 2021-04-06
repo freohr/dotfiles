@@ -76,6 +76,7 @@ plugins=(
   dirhistory
   sudo
   virtualenv
+  kubectl
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -121,3 +122,8 @@ alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias vcpkg="/home/stephen/workspace/libs/vcpkg/vcpkg"
 alias kc="kubectl"
 
+# Completion scripts
+# Enable Bash completions scripts
+autoload bashcompinit && bashcompinit
+type terraform 2>&1 > /dev/null && complete -o nospace -C $(where terraform) terraform
+source ~/.config/az.completion

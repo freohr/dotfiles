@@ -114,3 +114,5 @@ if ! shopt -oq posix; then
 fi
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+complete -C D:\Softs\terraform_0.14.9_windows_amd64\terraform.exe terraform.exe
